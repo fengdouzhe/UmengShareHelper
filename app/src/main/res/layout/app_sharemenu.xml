@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/umeng_white"
+    >
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="分享内容"
+            android:textColor="@color/umeng_white"
+            android:background="@color/umeng_blue"
+            android:id="@+id/share_context"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="分析图片"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/umeng_white"
+        android:background="@color/umeng_blue"
+        android:id="@+id/share_image"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="分享视频"
+        android:textColor="@color/umeng_white"
+        android:background="@color/umeng_blue"
+        android:id="@+id/share_video"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="分享音乐"
+        android:textColor="@color/umeng_white"
+        android:background="@color/umeng_blue"
+        android:id="@+id/share_music"/>
+
+</LinearLayout>

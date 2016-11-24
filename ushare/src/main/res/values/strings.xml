@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShareDemo</string>
+    <string name="umeng_openshare">打开分享面板</string>
+    <string name="umeng_openshare_custom">打开自定义分享面板</string>
+</resources>
