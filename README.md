@@ -219,7 +219,7 @@ public class App extends Application {
 ![](https://github.com/fengdouzhe/UmengShareHelper/blob/master/images/6.png)
 
 #Bugs Report and Help
-If you find any bug when using project, please report here. Thanks for helping us building a better one.
+If you find any bug when using project, please report [here](https://github.com/fengdouzhe/UmengShareHelper/issues/new). Thanks for helping us building a better one.
 
 #Abount Author
 作者是一个喜爱编程的人，本人QQ是：1040114490。欢迎大家来加我交流。
