@@ -5,7 +5,7 @@
 # Getting Started
    由于需要时间审核，所以脚本引入需要等通过才可以。
 ##Usage
-1.初始化Activity,将微信和QQ需要用到的Activity注册进来。
+###1.初始化Activity,将微信和QQ需要用到的Activity注册进来。
 ```Java
        <!--微信-->
         <activity
@@ -43,7 +43,7 @@
             android:excludeFromRecents="true"
             />
 ```
-2.申请友盟APPkey，然后放到AndroidManifest.xml中。
+###2.申请友盟APPkey，然后放到AndroidManifest.xml中。
 ```Java
         <meta-data
             android:name="UMENG_APPKEY"
@@ -52,7 +52,7 @@
 ```
 value需要填写去友盟申请到的key<br>
 
-3.初始化微信和qq（ps：需要去微信平台和腾讯申请才行）
+###3.初始化微信和qq（ps：需要去微信平台和腾讯申请才行）
 ```Java
 public class App extends Application {
 
@@ -71,7 +71,7 @@ public class App extends Application {
     }
 }
 ```
-4.调用方法:
+###4.调用方法:
 (1)分享<br>
 在需要用到的Activity加上以下方法：
 ```Java
