@@ -5,6 +5,7 @@
 # Getting Started
    由于需要时间审核，所以脚本引入需要等通过才可以。
 ##Usage
+###备注：由于微信分享需要正式版本生成签名，然后根据签名去微信平台申请得到appkey才行。但是代码是没问题的，作者拿了友盟提供的微信appKey，然后在友盟提供的demo中试过了。
 ###1.初始化Activity,将微信和QQ需要用到的Activity注册进来。
 ```Java
        <!--微信-->
@@ -222,7 +223,7 @@ public class App extends Application {
 If you find any bug when using project, please report [here](https://github.com/fengdouzhe/UmengShareHelper/issues/new). Thanks for helping us building a better one.
 
 #Abount Author
-作者是一个喜爱编程的人，本人QQ是：1040114490。欢迎大家来加我交流。
+作者是一个非常喜爱编程的人，本人QQ是：1040114490。欢迎大家来加我交流。
 
 #License
 ```Java
