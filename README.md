@@ -135,7 +135,7 @@ public class App extends Application {
      UMImage umImage = new UMImage(ShareMenuActivity.this,"http://www.umeng.com/images/pic/social/chart_1.png");
      ShareHelper.shareImgage(Activity activity,umShareListener,umImage,targetUrl);
 ```
-●分析视频：
+●分享视频：
 ```Java
    /**
      * 分享视频
@@ -151,7 +151,7 @@ public class App extends Application {
 
     ShareHelper.shareVideo(Activity activity,umShareListener,video,targetUrl);
 ```
-●分析音乐：
+●分享音乐：
 ```Java
    /**
      * 分享音乐
